@@ -1,12 +1,13 @@
 Package: givemeall
 Type: Package
 Title: Give-Me-All Auxiliary package
-Version: 0.04
-Date: 2020-02-17
+Version: 0.05
+Date: 2020-02-21
 Author: Jan Philipp Dietrich
 Maintainer: Jan Philipp Dietrich <dietrich@pik-potsdam.de>
 Description: Auxiliary package which can be used to install all MO packages at once.
 Depends: gdx,
+         goxygen,
          lucode,
          luplot,
          luscale,
@@ -29,4 +30,4 @@ LazyLoad: no
 LazyData: no
 Encoding: UTF-8
 RoxygenNote: 7.0.2
-ValidationKey: 73236
+ValidationKey: 91565
