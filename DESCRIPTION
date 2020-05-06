@@ -1,8 +1,8 @@
 Package: givemeall
 Type: Package
 Title: Give-Me-All Auxiliary package
-Version: 0.05
-Date: 2020-02-21
+Version: 0.06
+Date: 2020-05-06
 Author: Jan Philipp Dietrich
 Maintainer: Jan Philipp Dietrich <dietrich@pik-potsdam.de>
 Description: Auxiliary package which can be used to install all MO packages at once.
@@ -18,7 +18,12 @@ Depends: gdx,
          magpie4,
          magpiesets,
          mip,
-         moinput,
+         mrcommons,
+         mrfeed,
+         mrland,
+         mrplayground,
+         mrremind,
+         mrregression,
          mrvalidation,
          quitte,
          remind,
@@ -29,5 +34,5 @@ License: BSD_2_clause + file LICENSE
 LazyLoad: no
 LazyData: no
 Encoding: UTF-8
-RoxygenNote: 7.0.2
-ValidationKey: 91565
+RoxygenNote: 7.1.0
+ValidationKey: 110328
